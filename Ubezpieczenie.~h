@@ -1,0 +1,27 @@
+
+#ifndef UbezpieczenieH
+#define UbezpieczenieH
+//---------------------------------------------------------------------------
+
+#include <iostream>
+#include <sstream>
+#include <fstream.h>
+
+//---------------------------------------------------------------------------
+
+class Ubezpieczenie
+{
+        bool AC;
+        bool OC;
+
+        Ubezpieczenie(bool ac, bool oc)
+        {
+                AC = ac;
+                OC = oc;
+        }
+
+
+};
+
+//------------------------------------------------------------------------
+#endif
